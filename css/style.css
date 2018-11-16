@@ -1,13 +1,16 @@
 html {
     height: 100%;
+    background-color:#D3D3D3;
 }
 
 body {
     height: 100%;
     
 }
-a {
-    text-decoration: none;
+a:hover {
+    text-decoration: underline;
+    color:brown;
+    
 }
 
 .main {
@@ -16,4 +19,79 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+
+#Title {
+    font-size:40px;
+    color:Brown;
+}
+#info{
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+}
+.Chance{
+    display: flex;
+    justify-content:space-between;
+    justify-content:center;
+
+}
+.navbar {
+    border:20px solid orange;
+    padding:5px;
+        display:flex;
+    justify-content: space-around;
+}
+.search{
+     border:20px solid blue;
+    padding:5px;
+    display:flex;
+    justify-content:space-around;
+}
+.hunt{
+    border:4px dashed orange;
+    padding:5px;
+    display:flex;
+    justify-content:space-around;
+}
+.image{
+    width:100px;
+    height:100px;
+     display:flex;
+    justify-content:center;
+ 
+}
+#title
+{
+color:Darkblue;
+font-size:30px;
+border:10px dashed white;
+}
+.homeimage{
+    width:30%;
+    height:50%;
+display:flex;
+justify-content:center;
+justify-content: space-between;
+margin: 10px;
+}
+
+#Text{
+    color:blue;
+    font-size:30px;
+    border: 10px solid red;
+    display:flex;
+    justify-content:center;
+}
+
+#info{
+    color:orange;
+}
+
+.pictures {
+    display:flex;
+    justify-content:space-between;
+    width:40%;
+
 }
